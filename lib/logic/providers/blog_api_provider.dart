@@ -41,7 +41,7 @@ class CallBlogApi {
       await localRepo.clearLocalStorage(box);
 
       //extracting latest 10 blogs and storing them in local storage
-      for (int i = blogsList.length - 10; i <= blogsList.length; i++) {
+      for (int i = blogsList.length - 10; i < blogsList.length; i++) {
 
         //converting image to base64 string to display in offline mode
         final imgBytes = await Constants.convertImgToBase64(blogsList[i].url);

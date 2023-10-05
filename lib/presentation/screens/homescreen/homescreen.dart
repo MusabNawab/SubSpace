@@ -5,6 +5,7 @@ import 'package:subspace/logic/providers/blog_list_provider.dart';
 import 'package:subspace/presentation/constants/constants.dart';
 import 'package:subspace/presentation/screens/favourites_screen.dart/favourites_screen.dart';
 import 'package:subspace/presentation/screens/global_widgets/appbar.dart';
+import 'package:subspace/presentation/screens/global_widgets/error_screen.dart';
 import 'package:subspace/presentation/screens/global_widgets/snackbar.dart';
 import 'package:subspace/presentation/screens/global_widgets/subspace_logo.dart';
 import 'package:subspace/presentation/screens/homescreen/widget/blog_skeleton.dart';
@@ -84,9 +85,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
             ),
           );
         },
-        error: (error, stackTrace) => const Center(
-              child: Text("Something went wrong"),
-            ),
+        error: (error, stackTrace) => const ErrorScreen(),
         loading: () => const BlogSkeleton());
 
     final Widget floatingActionButton = FloatingActionButton(

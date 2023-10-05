@@ -2,9 +2,9 @@
 # SubSpace
 
 
-### APK File: [click here](https://musabnawab.github.io/ExpenseTracker/)
+### APK File: [click here](https://drive.google.com/file/d/14sglTJ6aM-pF-SvHvjn82C8dnCQulJR_/view?usp=sharing)
 
-### App Architecture: [click here](https://github.com/MusabNawab/ExpenseTracker/tree/main/apk)
+### App Architecture: [click here](https://drive.google.com/file/d/10gzkoBws5IZ_P1SwKp3lCF_qg0vzg-Nz/view?usp=sharing)
 
 ### 3rd Party Dependencies
 - Hive: [click here](https://pub.dev/packages/hive)
